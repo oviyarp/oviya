@@ -4,7 +4,7 @@ Hi there!
 I'm a Student currently preparing for Data Analyst Associate Career
 📒 Completed course work:
   1. python Programming 2. Data Analysis 3. Advanced Database Programming with PL/SQL
-  4. Business Computing using Microsoft Office 365 - 2019 version.
+  4. Business Computing using Microsoft Office 365.
 📝 Intrested to work on Database Skills.
 🎤 Ask me about:
     - Sql Queries, Database functions.
@@ -16,6 +16,7 @@ I'm a Student currently preparing for Data Analyst Associate Career
  Completed Projects:
   Library Management Project with PL/Sql procedures
   Boston housing, Baseball player datasets in Data Analysis
+  Business Computing Projects with Word, Excel and PowerPoint.
     
  ✉️ Reach me at:oviyarp.17@gmail.com
     
