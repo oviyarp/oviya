@@ -17,6 +17,7 @@ I'm a Student currently preparing for Data Analyst Associate Career
   Library Management Project with PL/Sql procedures
   Boston housing, Baseball player datasets in Data Analysis
   Business Computing Projects with Word, Excel and PowerPoint.
+ Working on Tableau Projects.
     
  ✉️ Reach me at:oviyarp.17@gmail.com
     
