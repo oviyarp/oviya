@@ -14,9 +14,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import Normalizer
 from numpy import set_printoptions
 from pandas.plotting import scatter_matrix
-# load boston data set. If the dataset is not in the current directory, you will need to provide
-# a full path to filename variable. Check the dataframe after loading to determine if there is any extra columns,
-# if there is eliminate the extra column. The sample code for loading dataset from current directory is given.
+# load boston data set. 
 
 #read boston file
 da1 = pd.read_csv('/Users/oviyapavanan/Downloads/boston.csv')
@@ -33,33 +31,27 @@ names = ['crim','zn','indus','chas','nox','rm','age','dis','rad','tax','ptratio'
 
 # save features as pandas dataframe put columns zero to thirteen as X and column 14as Y
 ############
-# to do
+
 X = da1.drop(da1.columns[13], axis= 1)
 Y = da1.drop(da1.columns[0:13], axis= 1)
-############
 
 # separate features and response into two different arrays (Numpy array). 
-# This is not necessary for data analysis but will be used in the later part of thecourse.
-# For now it is just an exercise
-############
-# to do
 
 array = da1.values
 m = array[:, 0:13]
 n = array[:, 13]
-############
 
 # First perform exploratory data analysis 
 # look at the first 20 rows of data
 ############
-# to do
+
 daa1 = da1.head(20)
 ############
 
 # descriptive statistics: mean, max, min, count, 25 percentile, 50 percentile, 75 percentile
 ############
-# to do
-   #descriptive statistics:
+
+#descriptive statistics:
 set_option('display.width', 100)
 set_option('precision', 1)
 description = da1.describe()
@@ -67,10 +59,7 @@ print(description)
 ############
 
 # we look at the distribution of data 
-# plot the histogram and compare/match with descriptive statistics results
-############
-# to do
-  #histogram of da1:
+#histogram of da1:
 da1.hist()
 plt.show()
 ############
@@ -90,8 +79,7 @@ dataNormdf = pd.DataFrame(normalizedX, columns = names[0:13])
 dataNormdf['medv'] = Y
 
 # calculate the descriptive statistics after normalization
-############
-# to do
+
 set_option('display.width', 100)
 set_option('precision', 1)
 Norm_description = dataNormdf.describe()
@@ -104,8 +92,7 @@ print(Norm_description)
        but when we look the values of normalized descriptive statistics, 
        the mean and standard deviation values are not in correct range 
        and it's not done properly'''
-############
-# to do
+
 dataNormdf.hist() #histogram after normalization
 plt.show()
 ############
@@ -125,9 +112,8 @@ dataStanddf = pd.DataFrame(rescaledX, columns = names[0:13])
 dataStanddf['medv'] = Y
 
 # calculate the descriptive statistics after standardization
-############
-# to do
- #descriptive statistics after standardisation:
+
+#descriptive statistics after standardisation:
 set_option('display.width', 100)
 set_option('precision', 1)
 Stand_description = dataStanddf.describe()
@@ -141,7 +127,7 @@ print(Stand_description)
    and there is no change in shape but change in limit values only.
    The mean and standard deviation values are in correct range and standardization is done properly.'''
 ############
-# to do
+
 dataStanddf.hist() #histogram after normalization
 plt.show()
 
@@ -149,34 +135,7 @@ plt.show()
 
 # scatter plot of all data below
 ############
-# to do
-
-
 plt.figure()
 scatter_matrix(da1, c = 'red')
 plt.show()
 
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
