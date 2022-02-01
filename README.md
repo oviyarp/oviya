@@ -10,12 +10,12 @@ I'm a Student currently preparing for Data Analyst Associate Career
     - Sql Queries, Database functions.
     - Data Analysis EDA (data manipulation: reshaping, merging, sorting, slicing, aggregation etc.)
     - Statistics topics - Regression,  model validation etc.
-    - python libraries: Pandas, NumPy
+    - python libraries: Pandas, NumPy.
     - Visualization: matplotlib, SciKit, Seaborn using Spyder, Jupyter Notebook.
     
  Completed Projects:
-  Library Management Project with PL/Sql procedures
-  Boston housing, Baseball player datasets in Data Analysis
+  Library Management Project with PL/Sql procedures.
+  Boston housing, Baseball player datasets in Data Analysis.
   Business Computing Projects with Word, Excel and PowerPoint.
  Working on Tableau Projects.
     
